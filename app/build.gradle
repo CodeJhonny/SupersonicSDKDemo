@@ -13,8 +13,8 @@ android {
         applicationId "com.sidecode.grsupersonic"
         minSdkVersion 14
         targetSdkVersion 22
-        versionCode 2
-        versionName "2.0"
+        versionCode 3
+        versionName "2.1"
     }
     buildTypes {
         release {
@@ -47,6 +47,8 @@ dependencies {
     compile 'com.supersonic.adapters:chartboostadapter:2.1.0@jar'
     compile 'com.supersonic.adapters:inmobiadapter:2.1.0@jar'
     compile 'com.supersonic.adapters:mediabrixadapter:2.1.0@jar'
+    compile 'com.supersonic.adapters:hyprmxadapter:2.1.0@jar'
+
     //For NativeX make sure you add gson library
      compile 'com.supersonic.adapters:nativexadapter:2.1.0@jar'
     compile 'com.supersonic.adapters:tapjoyadapter:2.1.0@jar'
